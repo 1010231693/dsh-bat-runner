@@ -19,12 +19,13 @@
 
 ## 安装
 
-- 在 DSH 的「插件市场」搜索 **dsh-bat-runner** 安装；
-- 或命令行安装：
+- 命令行安装（当前可用）：
 
   ```bash
   dsh plugin --profile web add dsh-bat-runner
   ```
+
+- 或在 DSH 的「插件市场」搜索 **dsh-bat-runner** 安装（市场收录后可见）。
 
 安装后请**完全退出 DSH 再启动**（`Ctrl+R` 不会重载插件的客户端包）。
 

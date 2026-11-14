@@ -1,0 +1,58 @@
+{
+  "name": "dsh-bat-runner",
+  "version": "0.1.0",
+  "description": "常驻悬浮在 DSH 里的本地脚本日志面板：逐字显示 bat/cmd 输出、可自己运行与停止脚本，也能接收 BatRunner 启动器转发的日志。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib/**/*.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "assets",
+    "screenshots.json",
+    "README.md"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "bat",
+    "script-runner",
+    "logs",
+    "panel"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1010231693/dsh-bat-runner.git"
+  },
+  "homepage": "https://github.com/1010231693/dsh-bat-runner#readme",
+  "bugs": {
+    "url": "https://github.com/1010231693/dsh-bat-runner/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

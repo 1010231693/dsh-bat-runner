@@ -1,0 +1,12 @@
+# dsh-bat-runner 的 bundle 补丁：装好依赖即自动挂载（dsh 启动器会把声明了
+# dsh.bundle.patch 的依赖调和进 profile 的 bundle 层，不必手改 cordis.patch.yml）。
+#
+# 宿主半（lib/index.js）连 BatRunner 的命名管道并开一条 RPC 通道；
+# 浏览器半（lib/client.js）把最新三行注册进会话头部槽位。
+
+- insert:
+    - id: dsh-bat-runner
+      name: dsh-bat-runner
+      config:
+        pipeName: dsh.batrunner.logs
+        keepLines: 40

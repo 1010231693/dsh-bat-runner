@@ -4,11 +4,11 @@
 
 **一个浮在 DSH 界面上的本地脚本日志面板：点一下就能运行 `.bat` / `.cmd`，输出逐字实时显示在面板里——不加时间戳、不分级、不着色。也可以把它接到 BatRunner 启动器上，直接看启动器转发的日志。**
 
-![面板实拍：脚本正在跑，终端日志逐字显示在 DSH 主界面上](assets/screenshot-running.png)
+[<img src="assets/screenshot-running.png" width="70%" alt="面板实拍：脚本正在跑，终端日志逐字显示在 DSH 主界面上">](./assets/screenshot-running.png)
 
-![空面板：没有日志时显示两行引导](assets/screenshot-empty.png)
+[<img src="assets/screenshot-empty.png" width="70%" alt="空面板：没有日志时显示两行引导">](./assets/screenshot-empty.png)
 
-![设置窗：左半运行 Bat，右半日志外观](assets/screenshot-settings.png)
+[<img src="assets/screenshot-settings.png" width="70%" alt="设置窗：左半运行 Bat，右半日志外观">](./assets/screenshot-settings.png)
 
 ## 它能做什么
 

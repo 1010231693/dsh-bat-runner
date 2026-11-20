@@ -1,6 +1,6 @@
 {
   "name": "dsh-bat-runner",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "常驻悬浮在 DSH 里的本地脚本日志面板：逐字显示 bat/cmd 输出、可自己运行与停止脚本，也能接收 BatRunner 启动器转发的日志。",
   "type": "module",
   "main": "lib/index.js",

@@ -21,7 +21,8 @@
     "icon.svg",
     "assets",
     "screenshots.json",
-    "README.md"
+    "README.md",
+    "README.en.md"
   ],
   "keywords": [
     "deepseek-harness",

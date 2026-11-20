@@ -2,7 +2,9 @@
 
 <p align="center"><img src="icon.svg" width="96" height="96" alt="dsh-bat-runner"></p>
 
-**一个浮在 DSH 界面上的本地脚本日志面板：点一下就能运行 `.bat` / `.cmd`，输出逐字实时显示在面板里——不加时间戳、不分级、不着色。也可以把它接到 BatRunner 启动器上，直接看启动器转发的日志。**
+<p align="center"><b>简体中文</b> · <a href="./README.en.md"><b>English</b></a></p>
+
+**一个可以在DSH中运行任何bat脚本的插件，终端日志直接显示在DSH主界面，可控制启停，可设置日志面板外观，可任意拖动/缩放。**
 
 [<img src="assets/screenshot-running.png" width="70%" alt="面板实拍：脚本正在跑，终端日志逐字显示在 DSH 主界面上">](./assets/screenshot-running.png)
 
@@ -63,9 +65,7 @@
 
 ---
 
-### English
-
-A floating log panel for DeepSeek Harness. Run local `.bat` / `.cmd` scripts from the panel and see their output verbatim (no timestamps, levels or colors), or receive logs forwarded by the BatRunner launcher. Windows only. Install from the DSH plugin market or run `dsh plugin --profile web add dsh-bat-runner`, then fully restart DSH.
+<p align="center"><b>简体中文</b> · <a href="./README.en.md"><b>English</b></a></p>
 
 ## License
 

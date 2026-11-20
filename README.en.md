@@ -51,6 +51,11 @@ After installing, **quit DSH completely and start it again** (`Ctrl+R` does not 
 
 ## Changelog
 
+- **0.2.1**:
+  - **New one-line summary**: both the repository and the plugin market now say — a plugin that runs any `.bat` script inside DSH: the terminal log shows up right on the DSH main window; start and stop it, style the log panel, and drag or resize it freely.
+  - **English documentation added**: the repository and the npm page still open in Chinese by default; click `English` under the title for the full English version, and the bottom line switches back.
+  - **Screenshots replaced**: a new live shot of the panel printing a running script's terminal output on the DSH window; the settings screenshot is now the whole window, so both halves (Run Bat on the left, log appearance on the right) are in frame — the old one only caught the left half; all three images are now about half the previous area instead of filling the screen.
+  - **Nothing about the plugin changed**: this release only touches documentation and images. Running scripts, start / stop, appearance settings and stop-on-exit behave exactly as in 0.2.0.
 - **0.2.0**:
   - **Runtime shown next to the entry name**: a running script carries `● 已运行 14分35秒`, ticking once a second with units (`45秒` / `23分45秒` / `1小时23分45秒`). It disappears the moment you press Stop, and says nothing for an entry that is not running. After a DSH restart, a reclaimed script keeps counting from its original start time.
   - **Click a row to select it**: previously only pressing Run changed the selection, so "Run selected" kept pointing at the same entry. Clicking any row now selects it (blue background + blue left bar), and the cursor turns into a hand.

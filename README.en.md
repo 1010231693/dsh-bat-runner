@@ -38,8 +38,9 @@ After installing, **quit DSH completely and start it again**.
 
 ## Updates
 
-- **0.3.0**:
-  - The settings panel supports switching the interface language.
+- **0.4.0**: Logs can be saved to disk, and the log panel scrolls so you can read the whole history.
+- **0.3.0**: The settings panel can switch the interface language.
+- **0.2.1**: Added an English README and refreshed the screenshots.
 
 ---
 

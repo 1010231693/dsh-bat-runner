@@ -38,9 +38,9 @@ After installing, **quit DSH completely and start it again**.
 
 ## Updates
 
+- **0.4.1**: Added background color and opacity tuning for the log panel, and fixed the interface slowdown caused by long logs.
 - **0.4.0**: Logs can be saved to disk, and the log panel scrolls so you can read the whole history.
 - **0.3.0**: The settings panel can switch the interface language.
-- **0.2.1**: Added an English README and refreshed the screenshots.
 
 ---
 

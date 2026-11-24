@@ -10,7 +10,7 @@
 
 [<img src="assets/screenshot-empty.png" width="70%" alt="Empty panel: two lines of guidance when no log has arrived yet">](./assets/screenshot-empty.png)
 
-[<img src="assets/screenshot-settings-en.png" width="70%" alt="Settings window (shown in English): run Bat on the left, log appearance on the right — the interface language is its first option, following DSH by default">](./assets/screenshot-settings-en.png)
+[<img src="assets/screenshot-settings-en.png" width="70%" alt="Settings window (shown in English): Run Bat / Log file / Log appearance in three columns — the UI language is the first option under Log appearance, following DSH by default">](./assets/screenshot-settings-en.png)
 
 ## Installation
 

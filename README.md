@@ -10,7 +10,7 @@
 
 [<img src="assets/screenshot-empty.png" width="70%" alt="空面板：没有日志时显示两行引导">](./assets/screenshot-empty.png)
 
-[<img src="assets/screenshot-settings.png" width="70%" alt="设置窗：左半运行 Bat，右半日志外观（界面语言是第一个选项，默认跟随 DSH）">](./assets/screenshot-settings.png)
+[<img src="assets/screenshot-settings.png" width="70%" alt="设置窗：运行 Bat ｜ 日志文件 ｜ 日志外观三栏；界面语言在外观栏第一个，默认跟随 DSH">](./assets/screenshot-settings.png)
 
 ## 安装
 

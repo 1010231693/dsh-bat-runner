@@ -38,9 +38,9 @@ After installing, **quit DSH completely and start it again**.
 
 ## Updates
 
+- **0.4.3**: Improved selected and running states for script entries, and fixed log following and entry border issues.
 - **0.4.2**: Added a Forever log retention option.
 - **0.4.1**: Added background color and opacity tuning for the log panel, and fixed the interface slowdown caused by long logs.
-- **0.4.0**: Logs can be saved to disk, and the log panel scrolls so you can read the whole history.
 
 ---
 
